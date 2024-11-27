@@ -1,0 +1,16 @@
+html{
+
+    
+}
+body{
+    background-color: $negro;
+}
+.contenedor-estetica{
+    height: 100vh;
+    @include grid (2, $separacion);
+    .imagen{
+        background-image: url(./1.jpg);
+    }
+}
+    
+    
